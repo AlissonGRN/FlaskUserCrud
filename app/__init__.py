@@ -6,6 +6,7 @@ db = SQLAlchemy()
 migrate = Migrate()
 
 def create_app():
+    # TODO  Adcionar e configurar JWT 
 
     app = Flask(__name__)
     app.config.from_object('app.config.Config')

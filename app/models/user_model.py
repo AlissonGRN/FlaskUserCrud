@@ -1,7 +1,7 @@
 from app import db
 from datetime import datetime
 
-class User(db.Model):
+class User(db.Model): # TODO Atualizar User para conter atributos de senha e role 
 
     __tablename__ = 'users'
 
@@ -19,3 +19,4 @@ class User(db.Model):
             'created_at': self.created_at.strftime("%Y-%m-%d %H:%M:%S")
         }
 
+    # TODO Adcionar função para gerar e armazenar o hash da senha e verificar a senha 
