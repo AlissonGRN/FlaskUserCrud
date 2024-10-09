@@ -10,7 +10,6 @@ __pycache__/
 
 # Ignore environment variable files (usados para configurar credenciais, tokens, etc.)
 .env
-.config.py
 
 # Ignore compiled libraries
 *.so
